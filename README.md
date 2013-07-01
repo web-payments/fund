@@ -1,5 +1,5 @@
-Tools for Funding Software Development
-======================================
+Funding Tools
+=============
 
 Funding software development should be easier. This project contains a suite 
 of software tools to help make it easier to donate funds to a variety of
@@ -70,3 +70,12 @@ that a web browser is opened to a particular URL. For example, the
 following would perform a PayPal donation:
 
     url https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABCDEFG1234567
+
+Invoicing (future)
+==================
+
+Creating and sending out invoices is annoying and time consuming. This tool
+will allow you to invoice a customer from the command line through a website
+that you control.
+
+    invoice xyzcorp 8515.24
